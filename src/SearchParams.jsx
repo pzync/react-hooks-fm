@@ -7,6 +7,7 @@ const SearchParams = () => {
   const [breeds, setBreeds] = useState([]);
   const [animal, AnimalDropdown] = useDropdown("Animal", "dog", ANIMALS);
   const [breed, BreedDropdown] = useDropdown("Breed", "Havanese", breeds);
+
   // const [animal, setAnimal] = useState("dog");
   // const [breed, setBreed] = useState("Havanese");
 
